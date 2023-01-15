@@ -278,11 +278,12 @@ Media Query  for Mobile device
 -------------------- */
 @media only screen and (max-width: 600px) {
     nav{
-        display: none;
-        /* display: flex;
-        justify-content: space-around;
-        gap:140px;
-        align-items: center; */
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
     }
     .architect-section{
         text-align: center;
