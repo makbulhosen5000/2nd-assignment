@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* universal styles */
+.btn{
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    border: 0;
+}
+
+/* css variable */
+:root{
+    --text-black: #131313;
+    --font-700: 700;
+}
+
+/* .......................
+      style for body
+.......................... */
+body{
+    background: rgba(255, 144, 14, 0.1);
+    margin: 60px;;
+}
+
+/* .......................
+style for header and navigation
+.......................... */
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap:140px;
+    align-items: center;
+}
+.nav-title{
+    color: var(--font-black);
+    font-weight: var(--font-700);
+    font-size: 45px;
+}
+ul{
+    display: flex;
+    gap:35px;
+   
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/* .......................
+architect related style here
+.......................... */
+.architect-section{
+    padding-bottom: 45px;
+}
+
+.architect-info{
+    padding: 116px 32px 30px ;
+}
+.architect-headline{
+    font-weight: var(--font-700);
+    font-size: 64px;
+    color:var(--text-black);
+}
+.architect-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 32px auto;
+}
+.architect-banner img{
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+
+}
+/* .......................
+our features related style here
+.......................... */
+.feature-section{
+    background-color: white;
+    padding-top: 85px;
+}
+.our-features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 45px;
+}
+.our-features .image-gallery img{
+    width: 242px;
+    height: 242px;
+    border-radius:8px;
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+   width: 50%;
+}
+.title-color{
+    color:#727272;
+}
+.title-feature{
+    color: #FF900E;
+}
+.title-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 24px auto;
+}
+.gallery-description{
+    
+  text-align: left;
+  padding-top: 100px;
+
+
+}
+
+/* .......................
+Love and enjoy related style here
+.......................... */
+
+.love-enjoy-item{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+.love-enjoy-image img{
+    width: 100%;
+    height: 1059px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-feature{
+    width: 450px;
+    padding: 40px 10px;
+}
+.love-enjoy span{
+    height: 10px;
+    background-color:#FF900E;
+}
+
+.love-enjoy-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: justify;
+    padding: 10px 5px;
+}
+.feature-items{
+   text-align: justify;
+}
+.feature-item{
+    box-shadow: 0px 0px 10px 0px rgb(242, 238, 238);
+    margin: 30px 30px;
+    border-radius: 5px;
+    padding: 36px;
+}
+.feature-item-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.feature-item-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.image-position{
+    position: relative;
+}
+.btn-position {
+    position: absolute;
+    top:0px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.btn-experience{
+    font-weight:var(--font-700);
+    font-size: 65px;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border:0;
+    color: #FFFFFF;
+}
+.experience{
+    font-weight: 500;
+    font-size: 25px;
+}
+/* Some Facts style here */
+.fact-description{
+    padding-left: 10px;
+    width: 420px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.facts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:124px;
+    padding-top: 50px;
+}
+.fact{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.award{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.count{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+/* footer style  */
+.footer{
+    padding: 63px;
+}
+.footer-details{
+    text-align: center;
+}
+.footer-title{
+    margin: 80px auto 24px auto;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:155px;
+    padding-top: 50px;
+}
+.sponsors img{
+    width: 153.33px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
