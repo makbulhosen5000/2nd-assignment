@@ -284,6 +284,10 @@ Media Query  for Mobile device
     nav ul{
         display: flex;
         flex-direction: column;
+
+    }
+    nav ul li a:hover{
+        background-color: #470690;
     }
     .architect-section{
         text-align: center;
