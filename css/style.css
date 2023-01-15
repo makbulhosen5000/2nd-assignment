@@ -67,7 +67,9 @@ architect related style here
 }
 
 .architect-info{
-    padding: 116px 32px 30px ;
+    padding: 116px 32px 30px 0px;
+    text-align: center;
+
 }
 .architect-headline{
     font-weight: var(--font-700);
@@ -98,6 +100,7 @@ our features related style here
 .our-features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
     margin-top: 45px;
 }
 .our-features .image-gallery img{
@@ -108,8 +111,10 @@ our features related style here
 .image-gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 24px;
-   width: 50%;
+    width: 50%;
+}
+.gallery{
+    margin:12px;
 }
 .title-color{
     color:#727272;
@@ -260,7 +265,7 @@ Love and enjoy related style here
     align-items: center;
     justify-content: center;
     gap:155px;
-    padding-top: 50px;
+    padding: 50px 30px;
 }
 .sponsors img{
     width: 153.33px;
